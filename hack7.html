@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Signup Form</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .signup-box {
+      background: #fff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      width: 320px;
+    }
+
+    .signup-box h2 {
+      margin: 0 0 20px;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .signup-box label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+
+    .signup-box input[type="text"],
+    .signup-box input[type="email"],
+    .signup-box input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: none;
+      border-bottom: 1px solid #000;
+      background: transparent;
+      font-size: 14px;
+      outline: none;
+    }
+
+    .signup-box input::placeholder {
+      color: #aaa;
+    }
+
+    .signup-box button {
+      width: 100%;
+      padding: 12px;
+      background-color: #800080;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .signup-box button:hover {
+      background-color: #660066;
+    }
+
+    .login-text {
+      margin-top: 15px;
+      font-size: 14px;
+    }
+
+    .login-text a {
+      color: #4B0082;
+      text-decoration: none;
+    }
+
+    .login-text a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="signup-box">
+    <h2>Signup</h2>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Enter your name...">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter your email...">
+
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="Enter your password...">
+
+      <button type="submit">Signup</button>
+    </form>
+
+    <p class="login-text">Already have an account? <a href="hack6.html">Login</a></p>
+  </div>
+</body>
+</html>
