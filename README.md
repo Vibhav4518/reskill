@@ -44,4 +44,4 @@ Fundamental rights: including Right to Equality (Articles 14–18)
 
 Your site blends educational depth with interactive gamification and real-world rewards, wrapped in an approachable, user-centric design. The result: an engaging platform that not only informs but actively encourages participation—and rewards users for learning.
 
-========================================================= THANK YOU ============================================================
+========================= THANK YOU ================================
